@@ -1,0 +1,18 @@
+.morning{
+  background-color: whitesmoke;
+  font:italic;
+  text-align: center;
+}
+.light{
+  color: white;
+}
+.night{
+  background-color: black;
+  text-align: center;
+}
+.button{
+  font-size: 15px;
+  font-weight: bold;
+  height: 40px;
+  margin: 10px;
+}
