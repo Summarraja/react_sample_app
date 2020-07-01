@@ -9,11 +9,10 @@ function App(){
   return(
     <div className={isMorning?"morning":"night"}>
       <DayComponent isMorning = {isMorning} morning= {morning}/>
-
       <hr/>
       <CounterComponent isMorning = {isMorning} counter={counter} setCounter={setCounter}/>
       <hr/>
-      <h5 className={props.isMorning?"":"light"}>Created By Summar Raja</h5>
+      <h5 className={isMorning?"":"light"}>Created By Summar Raja</h5>
     </div>
 
   )
