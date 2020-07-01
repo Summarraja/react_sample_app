@@ -12,7 +12,8 @@ function App(){
 
       <hr/>
       <CounterComponent isMorning = {isMorning} counter={counter} setCounter={setCounter}/>
-
+      <hr/>
+      <h5>Created By Summar Raja</h5>
     </div>
 
   )
